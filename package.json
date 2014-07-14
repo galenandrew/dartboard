@@ -1,0 +1,35 @@
+{
+  "name": "Dartboard",
+  "version": "0.0.0",
+  "description": "A simple Darts scoring web app written with Node.js.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mmozuras/dartboard.git"
+  },
+  "author": "Mindaugas Mozûras <mmozuras>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmozuras/dartboard/issues"
+  },
+  "homepage": "https://github.com/mmozuras/dartboard",
+  "dependencies": {
+    "connect": "^1.0.6",
+    "express": "^2.0.0-beta3",
+    "expresso": "^0.7.3",
+    "jade": "^0.8.6",
+    "less": "^1.0.41",
+    "mongoose": "^1.1.4",
+    "underscore": "^1.1.4"
+  },
+  "devDependencies": {
+    "should": "0.0.4"
+  }
+}
